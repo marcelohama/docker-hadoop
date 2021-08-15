@@ -24,21 +24,29 @@ A standalone single-node Hadoop image for Docker
 	2. Copy sample file into HDFS input directory:
 
 	`$ /root/hadoop/bin/hadoop fs -mkdir -p /example`
+	
 	`$ /root/hadoop/bin/hadoop fs -put /root/example/criptomoedas.txt /example`
 
 	3. Setup Java environment variables:
 
 	`export JAVA_HOME=/usr/java/latest`
+	
 	`export PATH=${JAVA_HOME}/bin:${PATH}`
+	
 	`export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar`
 
 	4. Compile MapReduce Java job into a .jar file:
 	
 	`$ /root/hadoop/bin/hadoop com.sun.tools.javac.Main /root/example/WordCount.java`
+	
 	`$ cd root/example`
+	
 	`$ jar cf /root/example/wc.jar /root/example/WordCount*.class`
+	
 	`$ cd ..`
+	
 	`$ cd ..`
+	
 	`$ jar tvf /root/example/wc.jar`
 
 	5. Run the job:
