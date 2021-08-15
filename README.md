@@ -29,11 +29,11 @@ A standalone single-node Hadoop image for Docker
 
 	3. Setup Java environment variables:
 
-	`export JAVA_HOME=/usr/java/latest`
+	`$ export JAVA_HOME=/usr/java/latest`
 	
-	`export PATH=${JAVA_HOME}/bin:${PATH}`
+	`$ export PATH=${JAVA_HOME}/bin:${PATH}`
 	
-	`export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar`
+	`$ export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar`
 
 	4. Compile MapReduce Java job into a .jar file:
 	
