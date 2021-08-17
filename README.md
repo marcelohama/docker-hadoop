@@ -12,7 +12,9 @@ A standalone single-node Hadoop image for Docker
 	`docker run -it --name hadoop --rm -p 50070:50070 -p 8088:8088 hadoop:1`
 
 	3. Check web interfaces of Hadoop:
+	
 	http://localhost:50070/explorer.html#/example
+	
 	http://localhost:8088/cluster
 
 2. Compile the MapReduce program and run it inside Hadoop prompt
