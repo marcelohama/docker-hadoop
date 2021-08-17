@@ -13,9 +13,9 @@ A standalone single-node Hadoop image for Docker
 
 	3. Check web interfaces of Hadoop:
 	
-	http://localhost:50070/explorer.html#/example
+	`http://localhost:50070/explorer.html#/example`
 	
-	http://localhost:8088/cluster
+	`http://localhost:8088/cluster`
 
 2. Compile the MapReduce program and run it inside Hadoop prompt
 
@@ -43,7 +43,7 @@ A standalone single-node Hadoop image for Docker
 	
 	`$ cd root/example`
 	
-	`$ jar cf /root/example/wc.jar /root/example/WordCount*.class`
+	`$ jar cf wc.jar WordCount*.class`
 	
 	`$ cd ..`
 	
