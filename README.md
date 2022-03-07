@@ -1,6 +1,10 @@
 # docker-hadoop
 A standalone single-node Hadoop image for Docker
 
+0. Preliminaries
+	1. download the .tar.gz of Haddop distribution in:
+	https://hadoop.apache.org/release/3.1.1.html
+
 1. Build the Docker image and run it
 
 	1. Inside the root directory, run this command to create the image:
