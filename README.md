@@ -62,3 +62,4 @@ A standalone single-node Hadoop image for Docker
 	6. Show the results:
 	
 	`$ /root/hadoop/bin/hadoop fs -cat /example/criptomoedas_mapreduce_result/part-00000`
+
